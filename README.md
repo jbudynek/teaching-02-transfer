@@ -32,8 +32,8 @@ This file is a step by step tutorial to practice basics of transfer learning on 
 - See `defects_transfer.ipynb`
 
 ## What tweaks to try
-- With or without transfer learning
 - With different kinds of image classification models
+- With different layers on top of the pre-trained model
 - With or without data augmentation
 - With a different number of input pictures
 
