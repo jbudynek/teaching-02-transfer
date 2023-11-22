@@ -82,6 +82,7 @@ conference on artificial neural networks. Springer, Cham, 2018.
 - <https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product>
 
 ## Tansfer learning in Keras tutorial
+
 - <https://keras.io/guides/transfer_learning/>
 
 ## Misc
