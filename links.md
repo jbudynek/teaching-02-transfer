@@ -1,4 +1,4 @@
-# Links
+# Collection of links
 
 ## NLP Models
 
@@ -17,6 +17,21 @@ A survey." Science China Technological Sciences 63.10 (2020): 1872-1897.
 AI Open 2 (2021): 225-250.
   - <https://www.sciencedirect.com/science/article/pii/S2666651021000231>
 
+## Large Language Models
+
+- Kojima, Takeshi, et al. "Large language models are zero-shot reasoners."
+Advances in neural information processing systems 35 (2022): 22199-22213.
+  - <https://arxiv.org/abs/2205.11916>
+
+- Bender, Emily M., et al. "On the dangers of stochastic parrots: Can language
+models be too big?🦜." Proceedings of the 2021 ACM conference on fairness,
+accountability, and transparency. 2021.
+  - <https://dl.acm.org/doi/10.1145/3442188.3445922>
+
+- Brown, Tom, et al. "Language models are few-shot learners."
+Advances in neural information processing systems 33 (2020): 1877-1901.
+  - <https://arxiv.org/abs/2005.14165>
+
 ## Computer vision models
 
 - 2012 - Alexnet - CNN
@@ -34,6 +49,14 @@ for image recognition at scale." arXiv preprint arXiv:2010.11929 (2020).
   - <https://keras.io/api/applications/>
 - Pre-trained models in PaddlePaddle OCR
   - <https://github.com/PaddlePaddle/PaddleOCR>
+
+## Time Series
+
+- 2023 - TimeGPT
+  - Garza, Azul, and Max Mergenthaler-Canseco. "TimeGPT-1."
+arXiv preprint arXiv:2310.03589 (2023).
+  - <https://arxiv.org/abs/2310.03589>
+  - <https://docs.nixtla.io/>
 
 ## Tabular data
 
@@ -57,6 +80,8 @@ conference on artificial neural networks. Springer, Cham, 2018.
 ## Cast defects dataset
 
 - <https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product>
+
+## Tansfer learning in Keras tutorial
 - <https://keras.io/guides/transfer_learning/>
 
 ## Misc

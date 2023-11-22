@@ -4,7 +4,7 @@
 
 This file is a step by step tutorial to practice basics of transfer learning on
 an industrial dataset composed of pictures, for a use case of quality control.
-You will also find the dataset and Jupyter notebooks with code that could help
+You will also find the dataset and Jupyter notebooks with code that can help
 you address the questions.
 
 ## Cast defect dataset
@@ -20,13 +20,14 @@ defects, etc.
 ## Carry out transfer learning with a pretrained DL image classification model
 
 - Use this Keras tutorial:
-- <https://keras.io/guides/transfer_learning/>
+  - <https://keras.io/guides/transfer_learning/>
+  - (the tutorial is mirrored in `231122_keras-transfer_files.zip`)
 - Take a pretrained DL image classification model
 - Freeze weights
 - Remove last layer
 - Replace it by what makes sense to your question
 - Train only the part you added
-- See `defects_transfer.ipynb` for example code
+- See `01_defects_transfer.ipynb` for example code
 
 ## What tweaks to try
 
@@ -36,17 +37,21 @@ defects, etc.
 - With a different number of input pictures
 
 Possible output:
-|Scenario|Type-of-model|Data-augmentation|Number-of-training-images|Number-of-test-images|Training-accuracy|Testing-accuracy|Training-duration|
+|Scenario|Type&puncsp;of&puncsp;model|Data&puncsp;augmentation|Number&puncsp;of&puncsp;training&puncsp;images|Number&puncsp;of&puncsp;test&puncsp;images|Training&puncsp;accuracy|Testing&puncsp;accuracy|Training&puncsp;duration|
 |-|-|-|-|-|-|-|-|
-|1..n|Xception,MobileNet,ResNet,...|y/n|5%-10%-50%-80%-of-total|||||
+|1..n|Xception,&puncsp;MobileNet,&puncsp;ResNet,&puncsp;...|y/n|5%&puncsp;10%&puncsp;50%&puncsp;80%&puncsp;of&puncsp;total|||||
 
 ## Ideas to go further
 
-- Explainability
+- You can look into explainability for computer vision algorithms
 
 ## Classic CV approach (optional)
 
 - SIFT (or AKAZE)
 - Bag of words
 - Classification with SVM
-- See `defects_AKAZE_SVM.ipynb`
+- See `02_defects_AKAZE_SVM.ipynb`
+
+## Notes
+
+Used in 2022 and 2023 with AI engineering students in Bordeaux.
