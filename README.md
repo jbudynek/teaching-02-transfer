@@ -56,4 +56,4 @@ Possible output:
 
 ## Notes
 
-Used in 2022 and 2023 with AI engineering students in Bordeaux.
+Used in 2022, 2023 and 2024 with AI engineering students in Bordeaux.
