@@ -19,6 +19,8 @@ defects, etc.
 
 ## Carry out transfer learning with a pretrained DL image classification model
 
+- take this notebook to work in it: `00_defects_transfer_exercise.ipynb`
+
 - Use this Keras tutorial:
   - <https://keras.io/guides/transfer_learning/>
   - (the tutorial is mirrored in `231122_keras-transfer_files.zip`)
@@ -27,7 +29,7 @@ defects, etc.
 - Remove last layer
 - Replace it by what makes sense to your question
 - Train only the part you added
-- See `01_defects_transfer.ipynb` for example code
+- See `working_example/01_defects_transfer_working_example.ipynb` for example code
 
 ## What tweaks to try
 
@@ -45,12 +47,12 @@ Possible output:
 
 - You can look into explainability for computer vision algorithms
 
-## Classic CV approach (optional)
+## Classic CV approach (for information)
 
 - SIFT (or AKAZE)
 - Bag of words
 - Classification with SVM
-- See `02_defects_AKAZE_SVM.ipynb`
+- See `working_example/02_defects_AKAZE_SVM.ipynb`
 
 ## Notes
 
