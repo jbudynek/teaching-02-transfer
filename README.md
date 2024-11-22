@@ -38,10 +38,12 @@ defects, etc.
 - With or without data augmentation
 - With a different number of input pictures
 
+Think about the execution time before starting your full loop!
+
 Possible output:
 |Scenario|Type&puncsp;of&puncsp;model|Data&puncsp;augmentation|Number&puncsp;of&puncsp;training&puncsp;images|Number&puncsp;of&puncsp;test&puncsp;images|Training&puncsp;accuracy|Testing&puncsp;accuracy|Training&puncsp;duration|
 |-|-|-|-|-|-|-|-|
-|1..n|Xception,&puncsp;MobileNet,&puncsp;ResNet,&puncsp;...|y/n|5%&puncsp;10%&puncsp;50%&puncsp;80%&puncsp;of&puncsp;total|||||
+|1..n|Xception,&puncsp;MobileNet,&puncsp;ResNet,&puncsp;...|y/n|20%&puncsp;50%&puncsp;of&puncsp;total|||||
 
 ## Ideas to go further
 
